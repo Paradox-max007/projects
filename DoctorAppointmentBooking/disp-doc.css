@@ -1,0 +1,75 @@
+/* Reset default margins and paddings */
+
+body {
+
+background-color: #484947;
+}
+
+p{
+display: flex;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the profile container */
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Style for each profile tile */
+.profile-tile {
+    background-color: #A3A6A1;
+    border: 2px solid darkred;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style for profile images (small circle) */
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border: 3px solid #fff;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+/* Style for profile details */
+.profile-details h2 ,h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.profile-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .profile-container {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .profile-tile {
+        width: 90%;
+    }
+}
