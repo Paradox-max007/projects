@@ -2,7 +2,7 @@
 - 👀 I’m interested in coding, web development,app development and game development 
 - 🌱 I’m currently learning data science 
 - 💞️ I’m looking to collaborate on data science 
-- 📫 Reach me @jyothilalreji7@gmail.com
+- 📫 Reach me @jyothilalreji@gmail.com
 - 😄 Pronouns: He/Him
 
 <!---
